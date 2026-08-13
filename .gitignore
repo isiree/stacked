@@ -90,4 +90,10 @@ typings/
 
 # Electron-Forge
 out/
+node_modules/
+.vite/
+out/
+dist/
+
+.DS_Store
 

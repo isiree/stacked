@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
+import { App } from './App';
 import './index.css';
 
 const rootElement = document.getElementById('root');
@@ -11,9 +12,6 @@ if (!rootElement) {
 
 createRoot(rootElement).render(
   <StrictMode>
-    <main>
-      <h1>Stacked</h1>
-      <p>Your visual workload, one task at a time.</p>
-    </main>
+    <App />
   </StrictMode>,
 );
